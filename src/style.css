@@ -2,7 +2,17 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+
+	--primary-color: #f8049c;
+	--secondary-color: #fdd54f;
+	--dark-color: #333;
+	--light-color: #fff;
+	--danger-color: #dc3545;
+	--success-color: #28a745;
+	--warning-color: #ffc107;
 }
+
+
 
 body {
 	font-family: 'Roboto', sans-serif;
