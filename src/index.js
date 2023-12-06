@@ -1,3 +1,7 @@
+import css from './style.css';
+import "./style.css";
+import header from './home';
+
 const content = document.getElementById('content');
 
 const render = () => {
@@ -7,4 +11,5 @@ const render = () => {
   `;
 }
 
+header(); 
 render();
