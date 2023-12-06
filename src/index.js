@@ -11,5 +11,5 @@ const render = () => {
   `;
 }
 
-header(); 
 render();
+header();
