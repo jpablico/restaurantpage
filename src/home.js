@@ -1,15 +1,13 @@
 function home() {
-  const content = document.getElementById('content');
-  content.innerHTML = '';
-  const home = document.createElement('div');
-  home.classList.add('home');
-  const homeTitle = document.createElement('h1');
-  homeTitle.textContent = 'Welcome to our restaurant';
-  const homeText = document.createElement('p');
-  homeText.textContent = 'We are a restaurant that offers a variety of dishes, from the most traditional to the most innovative. We have a wide selection of wines and cocktails. We are located in the heart of the city, so you can visit us whenever you want.';
-  home.appendChild(homeTitle);
-  home.appendChild(homeText);
-  content.appendChild(home);
+	const content = document.getElementById('content');
+	
+	const homecontent = content.innerHTML = `
+	<div class="home">
+		<h1 class="home_title">Welcome to Rowena's Cafe</h1>
+		<p class="home_description">We are a family owned and operated restaurant located in the heart of the city. We offer a wide variety of dishes, from traditional to modern, and everything in between. Our menu is carefully crafted to ensure that you have the best dining experience possible. Whether you're looking for a quick bite to eat or a full meal, we have something for everyone. Come in and see us today!</p>
+	</div>
+  `;
+  return content.appendChild(homecontent);
 };
 
 export default home;
