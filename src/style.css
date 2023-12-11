@@ -1,14 +1,12 @@
 :root {
-	--primary-color: #f8049c;
+	--primary-color: #ffffff;
 	--secondary-color: #fdd54f;
 	--dark-color: #333;
-	--light-color: #fff;
+	--light-color: #7a7a7a;
 	--danger-color: #dc3545;
 	--success-color: #28a745;
 	--warning-color: #ffc107;
 }
-
-
 
 body {
 	font-family: 'Roboto', sans-serif;
@@ -28,22 +26,61 @@ body {
 	
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
 }
 
-.header-container h1 {
-	font-size: 2.5rem;
+.header-wrapper {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
 }
 
-.nav-container {
-	background-color: var(--secondary-color);
-	padding: 1rem;
-	text-align: center;
+.header-logo {
+	width: 50px;
+	height: 50px;
 }
 
-.nav-container ul {
+.nav-list {
 	list-style: none;
 	display: flex;
-	justify-content: center;
 	gap: 1rem;
+	justify-content: space-between;
+	flex: 1;
+}
+
+.nav-list a {
+	text-decoration: none;
+	color: var(--light-color);
+}
+
+.nav-list a:hover {
+	color: var(--secondary-color);
+}
+
+.nav-list-items {
+	display: flex;
+	flex-direction: row;
+}
+.nav-list-item {
+	padding: 0.5rem;
+	list-style-type: none;
+}
+
+.user-settings {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	align-items: center;
+}
+
+.location-link {
+	
+}
+
+.user-settings-btn {
+	background-color: var(--secondary-color);
+	color: var(--primary-color);
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 20px;
+	cursor: pointer;
 }
