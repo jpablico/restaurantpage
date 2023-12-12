@@ -74,6 +74,8 @@ body {
 
 .location-link {
 	font-size: .8rem;
+	display: flex;
+	align-items: center;
 }
 
 .user-settings-btn {
