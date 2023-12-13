@@ -1,6 +1,40 @@
-$body-color: red;
+// Dark theme
+$Primary-color-dark: #9db4cd;
+$Secondary-color-dark: #575742;
+$Accent-color-dark: #93b152;
 
-body {
-  background-color: $body-color;
-  height: 100vh;
+$Text-color-dark: #ffffff;
+$Background-color-dark: #1f1f1f;
+
+// Light theme
+$Primary-color-light: #324962;
+$Secondary-color-light: #bdbda8;
+$Accent-color-light: #8dac4d;
+
+$Text-color-light: #000000;
+$Background-color-light: #e0e0e0;
+
+// Mixins
+@mixin font($size: 1rem, $weight: 400, $family: 'Roboto') {
+	font-size: $size;
+	font-weight: $weight;
+	font-family: $family;
+}
+@mixin flex($direction: row, $justify: center, $align: center) {
+	display: flex;
+	flex-direction: $direction;
+	justify-content: $justify;
+	align-items: $align;
+}
+
+@mixin flex-child($grow: 0, $shrink: 0, $basis: auto) {
+	flex-grow: $grow;
+	flex-shrink: $shrink;
+	flex-basis: $basis;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
