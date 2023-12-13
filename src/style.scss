@@ -20,7 +20,7 @@ $Background-color-light: #e0e0e0;
 	font-weight: $weight;
 	font-family: $family;
 }
-@mixin flex($direction: row, $justify: center, $align: center) {
+@mixin flex($direction, $justify, $align) {
 	display: flex;
 	flex-direction: $direction;
 	justify-content: $justify;
@@ -37,4 +37,30 @@ $Background-color-light: #e0e0e0;
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+}
+
+body {
+	@include font(1rem, 400, 'Roboto');
+	@include flex(column, center, center);
+	background-color: $Background-color-dark;
+	color: $Text-color-dark;
+}
+
+.header-container .header-container__menu ul {
+	@include flex(row, space-between, center);
+	width: 100%;
+	height: 100%;
+	padding: 1rem 2rem;
+	gap: 3rem;
+
+	li {
+		@include font(1.2rem, 400, 'Roboto');
+		list-style: none;
+		cursor: pointer;
+		transition: all 0.3s ease-in-out;
+
+		&:hover {
+			color: $Accent-color-dark;
+		}
+	}
 }
