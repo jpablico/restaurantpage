@@ -94,54 +94,70 @@ body {
 }
 
 .main-container {
-	@include flex(row, left, center);
+	@include flex(column, center, center);
 	width: 100%;
-	height: 100vh;
-	padding: 2rem 8rem;
+	//height: 800rem;
+	//padding: 2rem 8rem;
 	//background-image: url('./assets/hero-bg.jpg');
-	background-image: linear-gradient(280deg,
+	
+	#hero-section {
+		@include flex(row, left, center);
+		flex: auto;
+		width: 100%;
+		height: 55rem;
+		gap: 1rem;
+		padding: 2rem 8rem;
+	
+		background-image: linear-gradient(280deg,
 			rgba(0, 0, 0, 0),
 			rgba(0, 0, 0, 0.5),
 			rgba(0, 0, 0, 1)
 		),
 		url('./assets/hero-bg.jpg');
-	background-size: cover;
-	.hero-container {
-		margin-top: 8rem;
-	}
-	.hero-container .hero-headline {
-		@include font(2.8rem, 700, 'Roboto');
-		color: $Text-color-dark;
-	}
+		background-size: cover;
+		background-position: center;
 
-	.hero-container .hero-button-container {
-		@include flex(row, left, center);
-		margin-top: 1rem;
-		gap: .4rem;
-		.material-symbols-outlined {
-		font-variation-settings:
-			'FILL' 1,
-			'wght' 400,
-			'GRAD' 0,
-			'opsz' 24
+		.hero-container {
+			margin-top: 8rem;
 		}
-		.hero-button {
-			@include font(1rem, 400, 'Roboto');
-			@include flex(row, center, center);
-			width: 12rem;
-			height: 2rem;
-			padding: .2rem .2rem;
-			border-radius: 1.5rem;
-			border: none;
-			background-color: $Accent-color-dark;
+		.hero-container .hero-headline {
+			@include font(2.8rem, 700, 'Roboto');
 			color: $Text-color-dark;
-			cursor: pointer;
-			transition: all 0.3s ease-in-out;
+		}
 
-			&:hover {
-				background-color: $Accent-color-light;
-				color: $Text-color-light;
+		.hero-container .hero-button-container {
+			@include flex(row, left, center);
+			margin-top: 1rem;
+			gap: .4rem;
+			.material-symbols-outlined {
+			font-variation-settings:
+				'FILL' 1,
+				'wght' 400,
+				'GRAD' 0,
+				'opsz' 24
+			}
+			.hero-button {
+				@include font(1rem, 400, 'Roboto');
+				@include flex(row, center, center);
+				width: 12rem;
+				height: 2rem;
+				padding: .2rem .2rem;
+				border-radius: 1.5rem;
+				border: none;
+				background-color: $Accent-color-dark;
+				color: $Text-color-dark;
+				cursor: pointer;
+				transition: all 0.3s ease-in-out;
+
+				&:hover {
+					background-color: $Accent-color-light;
+					color: $Text-color-light;
+				}
 			}
 		}
+	}
+
+	#craft-section {
+		
 	}
 }
