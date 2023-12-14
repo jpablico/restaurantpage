@@ -1,7 +1,7 @@
 // Dark theme
 $Primary-color-dark: #9db4cd;
 $Secondary-color-dark: #575742;
-$Accent-color-dark: #93b152;
+$Accent-color-dark: #cd9f35;
 
 $Text-color-dark: #ffffff;
 $Background-color-dark: #1f1f1f;
@@ -43,6 +43,7 @@ body {
 	@include font(1rem, 400, 'Roboto');
 	@include flex(column, center, center);
 	background-color: $Background-color-dark;
+	background-image: url('./assets/bgContour.svg');
 	color: $Text-color-dark;
 }
 
@@ -50,6 +51,9 @@ body {
 	width: 100%;
 	height: 10vh;
 	padding: 4rem 2rem;
+	background-color: $Background-color-dark;
+	position: fixed;
+	top: 0;
 
 	.header-container__menu {
 		@include flex(row, space-between, center);
@@ -87,4 +91,57 @@ body {
 .menu-right-wrapper {
 	@include flex(row, flex-start, center);
 	
+}
+
+.main-container {
+	@include flex(row, left, center);
+	width: 100%;
+	height: 100vh;
+	padding: 2rem 8rem;
+	//background-image: url('./assets/hero-bg.jpg');
+	background-image: linear-gradient(280deg,
+			rgba(0, 0, 0, 0),
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 1)
+		),
+		url('./assets/hero-bg.jpg');
+	background-size: cover;
+	.hero-container {
+		margin-top: 8rem;
+	}
+	.hero-container .hero-headline {
+		@include font(2.8rem, 700, 'Roboto');
+		color: $Text-color-dark;
+	}
+
+	.hero-container .hero-button-container {
+		@include flex(row, left, center);
+		margin-top: 1rem;
+		gap: .4rem;
+		.material-symbols-outlined {
+		font-variation-settings:
+			'FILL' 1,
+			'wght' 400,
+			'GRAD' 0,
+			'opsz' 24
+		}
+		.hero-button {
+			@include font(1rem, 400, 'Roboto');
+			@include flex(row, center, center);
+			width: 12rem;
+			height: 2rem;
+			padding: .2rem .2rem;
+			border-radius: 1.5rem;
+			border: none;
+			background-color: $Accent-color-dark;
+			color: $Text-color-dark;
+			cursor: pointer;
+			transition: all 0.3s ease-in-out;
+
+			&:hover {
+				background-color: $Accent-color-light;
+				color: $Text-color-light;
+			}
+		}
+	}
 }
