@@ -46,8 +46,24 @@ body {
 	color: $Text-color-dark;
 }
 
+.header-container {
+	width: 100%;
+	height: 10vh;
+	padding: 4rem 2rem;
+
+	.header-container__menu {
+		@include flex(row, space-between, center);
+		width: 100%;
+		height: 100%;
+		gap: 3rem;
+	}
+}
+
+.logo-asset {
+	scale: 1.7;
+	margin: 0 2rem;
+}
 .header-container .header-container__menu ul {
-	@include flex(row, space-between, center);
 	width: 100%;
 	height: 100%;
 	padding: 1rem 2rem;
@@ -63,4 +79,12 @@ body {
 			color: $Accent-color-dark;
 		}
 	}
+}
+
+.menu-left-wrapper {
+	@include flex(row, flex-end, center);
+}
+.menu-right-wrapper {
+	@include flex(row, flex-start, center);
+	
 }

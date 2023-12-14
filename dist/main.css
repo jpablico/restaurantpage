@@ -19,11 +19,27 @@ body {
   color: #ffffff;
 }
 
-.header-container .header-container__menu ul {
+.header-container {
+  width: 100%;
+  height: 10vh;
+  padding: 4rem 2rem;
+}
+.header-container .header-container__menu {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 3rem;
+}
+
+.logo-asset {
+  scale: 1.7;
+  margin: 0 2rem;
+}
+
+.header-container .header-container__menu ul {
   width: 100%;
   height: 100%;
   padding: 1rem 2rem;
@@ -39,4 +55,18 @@ body {
 }
 .header-container .header-container__menu ul li:hover {
   color: #93b152;
+}
+
+.menu-left-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menu-right-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
