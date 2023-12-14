@@ -27,6 +27,20 @@ $Background-color-light: #e0e0e0;
 	align-items: $align;
 }
 
+@mixin grid($columns, $rows) {
+    display: grid;
+    grid-template-columns: #{$columns};
+    grid-template-rows: #{$rows};
+}
+
+@mixin gridCard($backgroundImage) {
+	background-image: url($backgroundImage);
+	background-size: cover;
+	background-position: center;
+	border-radius: 1rem;
+	box-shadow: #000000 0px 0px 15px;
+}
+
 @mixin flex-child($grow: 0, $shrink: 0, $basis: auto) {
 	flex-grow: $grow;
 	flex-shrink: $shrink;
@@ -158,6 +172,48 @@ body {
 	}
 
 	#craft-section {
-		
+		@include flex(column, center, center);
+		width: 100%;
+		height: 40rem;
+		padding: 2rem 4rem;
+
+		.craft-container {
+			@include grid('repeat(4, 1fr)', 'repeat(4, 1fr)');
+			width: 100%;
+			height: 100%;
+			gap: 1rem;
+
+			.div1 { 
+				@include gridCard('./assets/img/coffee-pour.jpg');
+				grid-area: 1 / 1 / 4 / 3;
+			 }
+			.div2 {
+				@include flex(column, center, center);
+				border-radius: 1rem;
+				//box-shadow: #000000 0px 0px 15px;
+				grid-area: 4 / 1 / 5 / 3;
+				text-align: center;
+				background-color: $Background-color-dark;
+				color: $Text-color-dark;
+			
+				.craft-headline {
+					@include font(1.4rem, 700, 'Roboto');
+					flex: 1;
+					text-align: center
+				}
+			}
+			.div3 { 
+				@include gridCard('./assets/img/pexels-dammián-sinué-5213757.jpg');
+				grid-area: 1 / 3 / 3 / 5; 
+			}
+			.div4 { 
+				@include gridCard('./assets/img/pexels-kei-scampa-7736771.jpg');
+				grid-area: 3 / 4 / 5 / 5; 
+			}
+			.div5 { 
+				@include gridCard('./assets/img/pexels-chevanon-photography-333523.jpg');
+				grid-area: 3 / 3 / 5 / 4;
+			 } 
+		}
 	}
 }
