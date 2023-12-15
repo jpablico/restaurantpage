@@ -223,17 +223,39 @@ body {
 		height: 40rem;
 
 		.location-hours-container {
+			@include flex(row, center, center);
 			padding: 2rem 8rem;
 
 			.location {
 				@include flex(column, center, center);
+				gap: 1rem;
 
 				.temp-location-box {
-					@include gridCard('/src/assets/img/pexels-dammián-sinué-5213757.jpg');
+					@include gridCard('/src/assets/img/pexels-emmy-paw-5461619.jpg');
 					background-color: #ffffff;
-					width: 20rem;
-					height: 20rem;
+					width: 30rem;
+					height: 30rem;
 					
+				}
+				.location-content {
+					@include font(2rem, 500, 'Roboto');
+				}
+			}
+
+			.hours {
+				@include flex(column, center, center);
+				gap: 1rem;
+
+				.hours-headline {
+					@include font(2rem, 500, 'Roboto');
+				}
+				.hours-container {
+					@include flex(row, center, center);
+					gap: 1rem;
+
+					.hours-content {
+						@include font(1.2rem, 400, 'Roboto');
+					}
 				}
 			}
 		}
