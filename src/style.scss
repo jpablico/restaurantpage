@@ -225,16 +225,17 @@ body {
 		.location-hours-container {
 			@include flex(row, center, center);
 			padding: 2rem 8rem;
+			gap: 4rem;
 
 			.location {
 				@include flex(column, center, center);
 				gap: 1rem;
 
-				.temp-location-box {
-					@include gridCard('/src/assets/img/pexels-emmy-paw-5461619.jpg');
+				.location-box {
+					@include gridCard('/src/assets/img/Screenshot 2023-12-17 at 19-58-17 Google Maps.png');
 					background-color: #ffffff;
-					width: 30rem;
-					height: 30rem;
+					width: 40rem;
+					height: 26rem;
 					
 				}
 				.location-content {
@@ -248,13 +249,25 @@ body {
 
 				.hours-headline {
 					@include font(2rem, 500, 'Roboto');
+					text-decoration: underline
 				}
 				.hours-container {
 					@include flex(row, center, center);
-					gap: 1rem;
 
-					.hours-content {
-						@include font(1.2rem, 400, 'Roboto');
+					.hours-day {
+						padding: 1rem 2rem;
+
+						.location-hours-content {
+							@include font(2rem, 400, 'Roboto');
+						}
+					}
+
+					.hours-time {
+						padding: 1rem 2rem;
+
+						.location-hours-content {
+							@include font(2rem, 400, 'Roboto');
+						}
 					}
 				}
 			}
