@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.scss */ \"./src/style.scss\");\n\n\nconst contentMain = document.getElementById('content');\n\n\n//# sourceURL=webpack://restaurantpage/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.scss */ \"./src/style.scss\");\n\n\nconst contentMain = document.getElementById('content');\n\ndocument.getElementById('hamburger-menu').addEventListener('click', function() {\n    document.getElementById('menu').classList.toggle('show');\n});\n\n\n//# sourceURL=webpack://restaurantpage/./src/index.js?");
 
 /***/ })
 

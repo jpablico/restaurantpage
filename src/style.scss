@@ -57,8 +57,7 @@ $Background-color-light: #e0e0e0;
 	
 }
 
-
-@media screeen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
 
 	body {
 		@include font(1rem, 400, 'Roboto');
