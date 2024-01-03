@@ -10,8 +10,6 @@ function createElement(tag, className, textContent) {
     return element;
 }
 
-
-
 function appendToContent() {
     const contentDiv = document.getElementById('content');
     if (!contentDiv) {
@@ -21,7 +19,6 @@ function appendToContent() {
 
     contentDiv.appendChild(createHeader());
 }
-
 document.addEventListener('DOMContentLoaded', appendToContent);
 
 export { contentMain, createElement}
