@@ -13,10 +13,6 @@
     font-size: 1rem;
     font-weight: 400;
     font-family: "Roboto";
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: #1f1f1f;
     background-image: url(9d4d0427704d8d431cbd.svg);
     color: #ffffff;
