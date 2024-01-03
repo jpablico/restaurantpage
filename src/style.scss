@@ -62,7 +62,7 @@ $Background-color-light: #e0e0e0;
 
 	body {
 		@include font(1rem, 400, 'Roboto');
-		@include flex(column, center, center);
+		//@include flex(column, center, center);
 		background-color: $Background-color-dark;
 		background-image: url('./assets/bgContour.svg');
 		color: $Text-color-dark;

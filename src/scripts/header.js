@@ -1,4 +1,4 @@
-import { contentMain, createElement } from ".index.js";
+import { contentMain, createElement } from "./index.js";
 
 function createHeader() {
 	const header = createElement('header', 'header-container');

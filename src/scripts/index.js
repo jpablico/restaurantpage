@@ -1,4 +1,5 @@
 import '../style.scss';
+import { createHeader } from './header.js';
 
 const contentMain = document.getElementById('content');
 
@@ -9,5 +10,18 @@ function createElement(tag, className, textContent) {
     return element;
 }
 
+
+
+function appendToContent() {
+    const contentDiv = document.getElementById('content');
+    if (!contentDiv) {
+        console.error('No element with ID "content" found.');
+        return;
+    }
+
+    contentDiv.appendChild(createHeader());
+}
+
+document.addEventListener('DOMContentLoaded', appendToContent);
 
 export { contentMain, createElement}
