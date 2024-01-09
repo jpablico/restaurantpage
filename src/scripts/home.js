@@ -7,52 +7,37 @@ function createMain() {
     const heroSection = createElement('section', null, null);
     heroSection.id = 'hero-section';
     main.appendChild(heroSection);
+        const heroContainer = createElement('div', 'hero-container');
+        heroSection.appendChild(heroContainer);
+            const heroHeadline = createElement('h1', 'hero-headline', 'Beyond the ordinary cup');
+            heroContainer.appendChild(heroHeadline);
+            const heroLine = createElement('hr', 'hero-headline', 'Coffee with a story at Kapihan Co.');
+            heroContainer.appendChild(heroLine);
 
-    const heroContainer = createElement('div', 'hero-container');
-    heroSection.appendChild(heroContainer);
+    // About Section
+    const craftSection = createElement('section', null, null);
+    craftSection.id = 'craft-section';
+    main.appendChild(craftSection);
+        const craftContainer = createElement('div', 'craft-container');
+        craftSection.appendChild(craftContainer);
+            const div1 = createElement('div', 'div1');
+            craftContainer.appendChild(div1);
+            const div2 = createElement('div', 'div2');
+            craftContainer.appendChild(div2);
+                const craftheadline = createElement('h1', 'craft-headline', 'Crafted with care');
+            const div3 = createElement('div', 'div3');
+            craftContainer.appendChild(div3);
+            const div4 = createElement('div', 'div4');
+            craftContainer.appendChild(div4);
+            const div5 = createElement('div', 'div5');
+            craftContainer.appendChild(div5);
 
-    const heroHeadline = createElement('h1', 'hero-headline', 'Beyond the ordinary cup\nCoffee with a story at Kapihan Co.');
-    heroContainer.appendChild(heroHeadline);
 
     // ... Continue for other sections ...
 
+
+    
     return main;
 }
 
-function createFooter() {
-    const footer = createElement('footer', null);
-    footer.id = 'footer-section';
-
-    const footerContainer = createElement('div', 'footer-container');
-    footer.appendChild(footerContainer);
-
-    const footerHeadline = createElement('h4', 'footer-headline', 'Copyright © 2023 Kapihan Co. - All Rights Reserved');
-    footerContainer.appendChild(footerHeadline);
-
-    const footerLine = createElement('hr', 'footer-line');
-    footerContainer.appendChild(footerLine);
-
-    const footerContent = createElement('h5', 'footer-content', 'Designed & developed with ♡ by ');
-    footerContainer.appendChild(footerContent);
-
-    const footerLink = createElement('a', 'linkedin-link', 'Josh Pablico');
-    footerLink.href = 'https://www.linkedin.com/in/josh-pablico-618108220/';
-    footerLink.target = '_blank';
-    footerContent.appendChild(footerLink);
-
-    return footer;
-}
-
-function appendToContent() {
-    const contentDiv = document.getElementById('content');
-    if (!contentDiv) {
-        console.error('No element with ID "content" found.');
-        return;
-    }
-
-    contentDiv.appendChild(createHeader());
-    contentDiv.appendChild(createMain());
-    contentDiv.appendChild(createFooter());
-}
-
-document.addEventListener('DOMContentLoaded', appendToContent);
+export { createMain }

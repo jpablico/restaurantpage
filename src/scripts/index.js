@@ -1,5 +1,7 @@
 import '../style.scss';
 import { createHeader } from './header.js';
+import { createFooter } from './footer.js';
+import { createMain } from './home.js';
 
 const contentMain = document.getElementById('content');
 
@@ -18,6 +20,8 @@ function appendToContent() {
     }
 
     contentDiv.appendChild(createHeader());
+    contentDiv.appendChild(createMain());
+
 }
 document.addEventListener('DOMContentLoaded', appendToContent);
 

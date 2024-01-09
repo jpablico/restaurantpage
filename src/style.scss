@@ -125,7 +125,7 @@ $Background-color-light: #e0e0e0;
 			@include flex(row, left, center);
 			flex: auto;
 			width: 100%;
-			height: 75rem;
+			height: 50rem;
 			gap: 1rem;
 			padding: 2rem 8rem;
 		
@@ -139,11 +139,12 @@ $Background-color-light: #e0e0e0;
 			background-position: center;
 	
 			.hero-container {
-				margin-top: 8rem;
+				margin-top: 4rem;
 			}
 			.hero-container .hero-headline {
 				@include font(2.8rem, 700, 'Roboto');
 				color: $Text-color-dark;
+				border: none;
 			}
 	
 			.hero-container .hero-button-container {
