@@ -173,6 +173,8 @@
     font-family: "Roboto";
     flex: 1;
     text-align: center;
+    border: none;
+    color: #ffffff;
   }
   .main-container #craft-section .craft-container .div3 {
     background-image: url(8e05ed6e0406b8712a64.jpg);
