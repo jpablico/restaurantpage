@@ -207,7 +207,9 @@ $Background-color-light: #e0e0e0;
 					.craft-headline {
 						@include font(1.4rem, 700, 'Roboto');
 						flex: 1;
-						text-align: center
+						text-align: center;
+						border: none;
+						color: $Text-color-dark;
 					}
 				}
 				.div3 { 

@@ -24,7 +24,10 @@ function createMain() {
             craftContainer.appendChild(div1);
             const div2 = createElement('div', 'div2');
             craftContainer.appendChild(div2);
-                const craftheadline = createElement('h1', 'craft-headline', 'Crafted with care');
+                const craftheadline = createElement('h1', 'craft-headline', 'Here, every bean whispers a story, roasted to perfection and brewed with meticulous care');
+                div2.appendChild(craftheadline);
+                const craftline = createElement('hr', 'craft-headline', 'It\'s an invitation to slow down, to savor the nuanced flavors, the aroma that dances on the air, the warmth that seeps into your soul');
+                div2.appendChild(craftline);
             const div3 = createElement('div', 'div3');
             craftContainer.appendChild(div3);
             const div4 = createElement('div', 'div4');
