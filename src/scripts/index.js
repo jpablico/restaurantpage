@@ -21,6 +21,7 @@ function appendToContent() {
 
     contentDiv.appendChild(createHeader());
     contentDiv.appendChild(createMain());
+    contentDiv.appendChild(createFooter());
 
 }
 document.addEventListener('DOMContentLoaded', appendToContent);

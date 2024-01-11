@@ -57,13 +57,43 @@ function createMain() {
                     location.appendChild(address);
                 const hours = createElement('div', 'hours', null);
                 locationContainer.appendChild(hours);
-                    const hoursHeadline = createElement('h2', 'hours-headline', 'Hours');
+                    const hoursHeadline = createElement('h2', 'hours-headline', 'Location Hours');
                     hours.appendChild(hoursHeadline);
-                    const hoursContent = createElement('p', 'hours-content', 'Mon - Fri: 7:00am - 9:00pm');
-                    hours.appendChild(hoursContent);
-                    const hoursContent2 = createElement('p', 'hours-content', 'Sat - Sun: 8:00am - 9:00pm');
-                    hours.appendChild(hoursContent2);
-                                   
+                    const hoursContainer = createElement('div', 'hours-container');
+                    hours.appendChild(hoursContainer)
+                        const hoursDay = createElement('div', 'hours-day', null);
+                        hoursContainer.appendChild(hoursDay);
+                            const monday = createElement('p', 'location-hours-content', 'Monday');
+                            hoursDay.appendChild(monday);
+                            const tuesday = createElement('p', 'location-hours-content', 'Tuesday');
+                            hoursDay.appendChild(tuesday);
+                            const wednesday = createElement('p', 'location-hours-content', 'Wednesday');
+                            hoursDay.appendChild(wednesday);
+                            const thursday = createElement('p', 'location-hours-content', 'Thursday');
+                            hoursDay.appendChild(thursday);
+                            const friday = createElement('p', 'location-hours-content', 'Friday');
+                            hoursDay.appendChild(friday);
+                            const saturday = createElement('p', 'location-hours-content', 'Saturday');
+                            hoursDay.appendChild(saturday);
+                            const sunday = createElement('p', 'location-hours-content', 'Sunday');
+                            hoursDay.appendChild(sunday);
+                        const hoursTime = createElement('div', 'hours-time', null);
+                        hoursContainer.appendChild(hoursTime);
+                            const mondayTime = createElement('p', 'location-hours-content', '7:00 AM - 7:00 PM');
+                            hoursTime.appendChild(mondayTime);
+                            const tuesdayTime = createElement('p', 'location-hours-content', '7:00 AM - 7:00 PM');
+                            hoursTime.appendChild(tuesdayTime);
+                            const wednesdayTime = createElement('p', 'location-hours-content', '7:00 AM - 7:00 PM');
+                            hoursTime.appendChild(wednesdayTime);
+                            const thursdayTime = createElement('p', 'location-hours-content', '7:00 AM - 7:00 PM');
+                            hoursTime.appendChild(thursdayTime);
+                            const fridayTime = createElement('p', 'location-hours-content', '7:00 AM - 7:00 PM');
+                            hoursTime.appendChild(fridayTime);
+                            const saturdayTime = createElement('p', 'location-hours-content', '7:00 AM - 7:00 PM');
+                            hoursTime.appendChild(saturdayTime);
+                            const sundayTime = createElement('p', 'location-hours-content', '7:00 AM - 5:00 PM');
+                            hoursTime.appendChild(sundayTime);
+                  
 
 
     

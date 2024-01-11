@@ -269,7 +269,7 @@ $Background-color-light: #e0e0e0;
 							padding: 1rem 2rem;
 	
 							.location-hours-content {
-								@include font(2rem, 400, 'Roboto');
+								@include font(1.5rem, 400, 'Roboto');
 							}
 						}
 	
@@ -277,7 +277,7 @@ $Background-color-light: #e0e0e0;
 							padding: 1rem 2rem;
 	
 							.location-hours-content {
-								@include font(2rem, 400, 'Roboto');
+								@include font(1.5rem, 400, 'Roboto');
 							}
 						}
 					}
