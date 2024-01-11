@@ -3,8 +3,7 @@ import { contentMain, createElement } from "./index.js";
 function createFooter() {
     const footer = createElement('footer', null, null);
     footer.id = 'footer-section';
-    contentMain.appendChild(footer);
-
+    
     const footerContainer = createElement('div', 'footer-container');
     footer.appendChild(footerContainer);
 
