@@ -258,7 +258,7 @@
     padding: 1rem 2rem;
   }
   .main-container #location-hours-section .location-hours-container .hours .hours-container .hours-day .location-hours-content {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 400;
     font-family: "Roboto";
   }
@@ -266,7 +266,7 @@
     padding: 1rem 2rem;
   }
   .main-container #location-hours-section .location-hours-container .hours .hours-container .hours-time .location-hours-content {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 400;
     font-family: "Roboto";
   }
