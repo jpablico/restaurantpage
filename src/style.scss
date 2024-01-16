@@ -330,7 +330,7 @@ $Background-color-light: #e0e0e0;
 		width: 100%;
 		height: 100%;
 		padding: 2rem 8rem;
-		background-color: $Background-color-dark;
+		//background-color: $Background-color-dark;
 		color: $Text-color-dark;
 
 		.menu-container {
@@ -343,82 +343,15 @@ $Background-color-light: #e0e0e0;
 				@include flex(column, center, center);
 				width: 100%;
 				height: 50vh;
-				.menu-headline__line {
-					margin: 1rem 0;
-					width: 20%;
-					height: 1px;
-					background-color: $Text-color-dark;
-				}
-			}
 
-			.menu-headline__line {
-				margin: 1rem 0;
-				width: 20%;
-				height: 1px;
-				background-color: $Text-color-dark;
-			}
+				.menu-headline-title {
+					@include font(2.6rem, 700, 'Roboto');
 
-			.menu-content {
-				@include flex(column, center, center);
-				width: 100%;
-				height: 100%;
-				gap: 2rem;
-
-				.menu-category {
-					@include flex(column, center, center);
-					width: 100%;
-					height: 100%;
-					gap: 2rem;
-
-					.menu-category-headline {
-						@include font(1.5rem, 500, 'Roboto');
-					}
-
-					.menu-category-line {
+					.menu-headline__line {
 						margin: 1rem 0;
 						width: 20%;
 						height: 1px;
 						background-color: $Text-color-dark;
-					}
-
-					.menu-category-content {
-						@include flex(column, center, center);
-						width: 100%;
-						height: 100%;
-						gap: 2rem;
-
-						.menu-item {
-							@include flex(column, center, center);
-							width: 100%;
-							height: 100%;
-							gap: 2rem;
-
-							.menu-item-headline {
-								@include font(1.2rem, 400, 'Roboto');
-							}
-
-							.menu-item-line {
-								margin: 1rem 0;
-								width: 20%;
-								height: 1px;
-								background-color: $Text-color-dark;
-							}
-
-							.menu-item-content {
-								@include flex(column, center, center);
-								width: 100%;
-								height: 100%;
-								gap: 2rem;
-
-								.menu-item-description {
-									@include font(1rem, 300, 'Roboto');
-								}
-
-								.menu-item-price {
-									@include font(1rem, 300, 'Roboto');
-								}
-							}
-						}
 					}
 				}
 			}
