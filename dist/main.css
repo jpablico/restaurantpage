@@ -340,10 +340,15 @@
     font-weight: 700;
     font-family: "Roboto";
   }
-  #menu-section .menu-container .menu-headline .menu-headline-title .menu-headline__line {
+  #menu-section .menu-container .menu-headline .menu-headline__line {
     margin: 1rem 0;
     width: 20%;
     height: 1px;
     background-color: #ffffff;
+  }
+  #menu-section .menu-container .menu-headline .menu-subheadline {
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: "Roboto";
   }
 }
