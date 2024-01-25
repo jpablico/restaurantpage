@@ -342,7 +342,8 @@ $Background-color-light: #e0e0e0;
 			.menu-headline {
 				@include flex(column, center, center);
 				width: 100%;
-				height: 50vh;
+				margin-top: 10vh;
+				height: 15vh;
 
 				.menu-headline-title {
 					@include font(2.6rem, 700, 'Roboto');
@@ -360,8 +361,21 @@ $Background-color-light: #e0e0e0;
 				}
 			}
 
-			.menu-items {
+			.menu-item-container {
+				@include flex(row, center, center);	
+				width: 100%;
+				gap: 2rem;
 
+				.menu-item-title {
+					@include font(2.2rem, 700, 'Roboto');
+				}
+
+				.menu-items-coffee {
+					@include flex(column, center, center);
+				}
+				.menu-items-non-coffee {
+					@include flex(column, center, center);
+				}
 			}
 		}
 	}
