@@ -15,6 +15,7 @@ function createMenu() {
 				const menuHeadlineLine = createElement('hr', 'menu-headline__line', null);
 				menuHeadline.appendChild(menuHeadlineLine);
 				const menuSubHeadline = createElement('h5', 'menu-subheadline', 'Indulge in our carefully curated craft coffee, menu, featuring a variety of flavors.');
+				menuHeadline.appendChild(menuSubHeadline);
 			const menuItemContainer = createElement('div', 'menu-item-container', null);
 			menuContainer.appendChild(menuItemContainer);
 				const menuCoffee = createElement('div', 'menu-coffee', null);
@@ -54,7 +55,7 @@ function createMenu() {
 								const menuItem5Title = createElement('h3', 'menu-item-title', 'Cortado');
 								menuItem5.appendChild(menuItem5Title);
 								const menuItem5Description = createElement('p', 'menu-item-description', 'A coffee drink made with espresso and steamed');
-
+								menuItem5.appendChild(menuItem5Description);
 	return main;
 }
 
