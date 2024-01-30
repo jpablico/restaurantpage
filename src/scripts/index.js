@@ -2,6 +2,7 @@ import '../style.scss';
 import { createHeader } from './header.js';
 import { createMain } from './home.js';
 import { createFooter } from './footer.js';
+import { createMenu } from './menu.js';
 
 const contentMain = document.getElementById('content');
 
@@ -18,11 +19,11 @@ function appendToContent() {
         console.error('No element with ID "content" found.');
         return;
     }
-    /*
+    
     contentDiv.appendChild(createHeader());
-    contentDiv.appendChild(createMain());
+    contentDiv.appendChild(createMenu());
     contentDiv.appendChild(createFooter());
-    */
+
 }
 document.addEventListener('DOMContentLoaded', appendToContent);
 
