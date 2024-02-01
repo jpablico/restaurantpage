@@ -366,15 +366,24 @@ $Background-color-light: #e0e0e0;
 				width: 100%;
 				gap: 2rem;
 
-				.menu-item-title {
-					@include font(2.2rem, 700, 'Roboto');
-				}
+				.menu-coffee {
+					
+					width: 80%;
+					height: 100%;
+					gap: 2rem;
 
-				.menu-items-coffee {
-					@include flex(column, center, center);
-				}
-				.menu-items-non-coffee {
-					@include flex(column, center, center);
+					.menu-items-coffee {
+						@include flex(column, center, center);
+						width: 100%;
+						height: 100%;
+						gap: 1rem;
+						justify-content: left;
+						padding-top: 1rem;
+
+						.menu-item {
+							width: 100%;
+						}
+					}
 				}
 			}
 		}

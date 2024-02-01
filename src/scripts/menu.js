@@ -42,7 +42,7 @@ function createMenu() {
 							menuItemsCofee.appendChild(menuItem3);
 								const menuItem3Title = createElement('h3', 'menu-item-title', 'Cafe Latte');
 								menuItem3.appendChild(menuItem3Title);
-								const menuItem3Description = createElement('p', 'menu-item-description', 'A coffee drink made with espresso and steamed milk.');
+								const menuItem3Description = createElement('p', 'menu-item-description', 'A coffee drink made with half espresso and half steamed milk.');
 								menuItem3.appendChild(menuItem3Description);
 							const menuItem4 = createElement('div', 'menu-item', null);
 							menuItemsCofee.appendChild(menuItem4);
@@ -54,7 +54,7 @@ function createMenu() {
 							menuItemsCofee.appendChild(menuItem5);
 								const menuItem5Title = createElement('h3', 'menu-item-title', 'Cortado');
 								menuItem5.appendChild(menuItem5Title);
-								const menuItem5Description = createElement('p', 'menu-item-description', 'A coffee drink made with espresso and steamed');
+								const menuItem5Description = createElement('p', 'menu-item-description', 'A Spanish coffee drink made with espresso and a small amount of steamed milk.');
 								menuItem5.appendChild(menuItem5Description);
 	return main;
 }
