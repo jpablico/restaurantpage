@@ -21,37 +21,40 @@ function appendToContent() {
         console.error('No element with ID "content" found.');
         return;
     }
-    contentDiv.appendChild(createHeader());
 }
 
-document.addEventListener('DOMContentLoaded'), () => {
-    appendToContent();
+document.addEventListener('DOMContentLoaded', () => {
+    const content = document.getElementById('content');
+    const tabs = document.querySelectorAll('data-tab');
+    const footer = createFooter();
+    console.log(tabs)
+    console.log('BLOP');
 
-    const tabs = document.querySelectorAll('[data-tab]');
-    console.log(tabs);
-
+    content.appendChild(createHeader());
+    content.appendChild(createMain());
+    content.appendChild(footer);
+    
     tabs.forEach(tab => {
         tab.addEventListener('click', () => {
             const tabName = tab.dataset.tab;
-            const content = document.getElementById('content');
-            while (content.firstChild) {
-                content.removeChild(content.firstChild);
-            }
-            content.appendChild(createHeader());
-    
-            if (tabName === 'home') {
-                content.appendChild(createMain());
-            } else if (tabName === 'menu') {
-                content.appendChild(createMenu());
-            } else if (tabName === 'about') {
-                content.appendChild(createAbout());
-            } else if (tabName === 'contact') {
-                content.appendChild(createContact());
+
+            // Clear the content area, but keep the header and footer
+            while (content.children.length > 2) {
+                content.removeChild(content.children[1]);
             }
 
-            content.appendChild(createFooter());
+            // Add the new content
+            if (tabName === 'home') {
+                content.insertBefore(createMain(), footer);
+            } else if (tabName === 'menu') {
+                content.insertBefore(createMenu(), footer);
+            } else if (tabName === 'about') {
+                content.insertBefore(createAbout(), footer);
+            } else if (tabName === 'contact') {
+                content.insertBefore(createContact(), footer);
+            }
         });
     });
-};
+});
 
 export { contentMain, createElement}
