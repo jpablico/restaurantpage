@@ -7,6 +7,7 @@ function createAbout() {
 	aboutSection.id = 'about-section'
 	main.appendChild(aboutSection);
 
+	return main;
 }
 
 export { createAbout }
