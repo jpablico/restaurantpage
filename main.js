@@ -1,11 +1,3 @@
-/*
- * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
 /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
@@ -16,7 +8,9 @@
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://restaurantpage/./src/style.scss?");
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
 
 /***/ }),
 
@@ -26,7 +20,24 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
   \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   createAbout: () => (/* binding */ createAbout)\n/* harmony export */ });\n/* harmony import */ var _index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.js */ \"./src/scripts/index.js\");\n\n\nfunction createAbout() {\n\tconst main = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('main', 'main-container', null);\n\n\tconst aboutSection = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('section', null, null);\n\taboutSection.id = 'about-section'\n\tmain.appendChild(aboutSection);\n\n\treturn main;\n}\n\n\n\n//# sourceURL=webpack://restaurantpage/./src/scripts/about.js?");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   createAbout: () => (/* binding */ createAbout)
+/* harmony export */ });
+/* harmony import */ var _index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.js */ "./src/scripts/index.js");
+
+
+function createAbout() {
+	const main = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('main', 'main-container', null);
+
+	const aboutSection = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('section', null, null);
+	aboutSection.id = 'about-section'
+	main.appendChild(aboutSection);
+
+	return main;
+}
+
+
 
 /***/ }),
 
@@ -36,7 +47,21 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   createContact: () => (/* binding */ createContact)\n/* harmony export */ });\n/* harmony import */ var _index__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index */ \"./src/scripts/index.js\");\n\n\nfunction createContact() {\n\tconst main = (0,_index__WEBPACK_IMPORTED_MODULE_0__.createElement)('main', 'main-container', null);\n\n\n\treturn main;\n}\n\n\n\n//# sourceURL=webpack://restaurantpage/./src/scripts/contact.js?");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   createContact: () => (/* binding */ createContact)
+/* harmony export */ });
+/* harmony import */ var _index__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index */ "./src/scripts/index.js");
+
+
+function createContact() {
+	const main = (0,_index__WEBPACK_IMPORTED_MODULE_0__.createElement)('main', 'main-container', null);
+
+
+	return main;
+}
+
+
 
 /***/ }),
 
@@ -46,7 +71,38 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   createFooter: () => (/* binding */ createFooter)\n/* harmony export */ });\n/* harmony import */ var _index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.js */ \"./src/scripts/index.js\");\n\n\nfunction createFooter() {\n    const footer = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('footer', null, null);\n    footer.id = 'footer-section';\n    \n    const footerContainer = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'footer-container');\n    footer.appendChild(footerContainer);\n\n    const footerHeadline = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('h4', 'footer-headline', 'Copyright © 2023 Kapihan Co. - All Rights Reserved');\n    footerContainer.appendChild(footerHeadline);\n\n    const footerLine = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('hr', 'footer-line');\n    footerContainer.appendChild(footerLine);\n\n    const footerContent = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('h5', 'footer-content', 'Designed & developed with ♡ by ');\n    footerContainer.appendChild(footerContent);\n\n    const footerLink = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('a', 'linkedin-link', 'Josh Pablico');\n    footerLink.href = 'https://www.linkedin.com/in/josh-pablico-618108220/';\n    footerLink.target = '_blank';\n    footerContent.appendChild(footerLink);\n\n    return footer;\n}\n\n \n\n//# sourceURL=webpack://restaurantpage/./src/scripts/footer.js?");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   createFooter: () => (/* binding */ createFooter)
+/* harmony export */ });
+/* harmony import */ var _index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.js */ "./src/scripts/index.js");
+
+
+function createFooter() {
+    const footer = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('footer', null, null);
+    footer.id = 'footer-section';
+    
+    const footerContainer = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'footer-container');
+    footer.appendChild(footerContainer);
+
+    const footerHeadline = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('h4', 'footer-headline', 'Copyright © 2023 Kapihan Co. - All Rights Reserved');
+    footerContainer.appendChild(footerHeadline);
+
+    const footerLine = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('hr', 'footer-line');
+    footerContainer.appendChild(footerLine);
+
+    const footerContent = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('h5', 'footer-content', 'Designed & developed with ♡ by ');
+    footerContainer.appendChild(footerContent);
+
+    const footerLink = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('a', 'linkedin-link', 'Josh Pablico');
+    footerLink.href = 'https://www.linkedin.com/in/josh-pablico-618108220/';
+    footerLink.target = '_blank';
+    footerContent.appendChild(footerLink);
+
+    return footer;
+}
+
+ 
 
 /***/ }),
 
@@ -56,7 +112,56 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   createHeader: () => (/* binding */ createHeader)\n/* harmony export */ });\n/* harmony import */ var _index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.js */ \"./src/scripts/index.js\");\n\n\nfunction createHeader() {\n\tconst header = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('header', 'header-container');\n\n\tconst menuDiv = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'header-container__menu');\n\theader.appendChild(menuDiv);\n\n\t// Menu Left\n\tconst menuLeftWrapper = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('ul', 'menu-left-wrapper');\n\tmenuDiv.appendChild(menuLeftWrapper);\n\n\tconst homeLi = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('li', 'active', 'HOME');\n\thomeLi.dataset.tab = 'home';\n\tmenuLeftWrapper.appendChild(homeLi);\n\n\tconst menuLi = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('li', null, 'MENU');\n\tmenuLi.dataset.tab = 'menu';\n\tmenuLeftWrapper.appendChild(menuLi);\n\n\t// Logo\n\tconst logoDiv = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div');\n\tmenuDiv.appendChild(logoDiv);\n\n\tconst logoImg = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('img', 'logo-asset');\n\tlogoImg.src = '/src/assets/KapihanCoLogoDark.svg';\n\tlogoImg.alt = 'Kapihan Co. logo';\n\tlogoDiv.appendChild(logoImg);\n\n\t// Menu Right\n\tconst menuRightWrapper = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('ul', 'menu-right-wrapper');\n\tmenuDiv.appendChild(menuRightWrapper);\n\n\tconst aboutLi = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('li', null, 'ABOUT');\n\taboutLi.dataset.tab = 'about';\n\tmenuRightWrapper.appendChild(aboutLi);\n\n\tconst contactLi = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('li', null, 'CONTACT');\n\tcontactLi.dataset.tab = 'contact';\n\tmenuRightWrapper.appendChild(contactLi);\n\n\treturn header;\n}\n\n\n\n//# sourceURL=webpack://restaurantpage/./src/scripts/header.js?");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   createHeader: () => (/* binding */ createHeader)
+/* harmony export */ });
+/* harmony import */ var _index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.js */ "./src/scripts/index.js");
+
+
+function createHeader() {
+	const header = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('header', 'header-container');
+
+	const menuDiv = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'header-container__menu');
+	header.appendChild(menuDiv);
+
+	// Menu Left
+	const menuLeftWrapper = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('ul', 'menu-left-wrapper');
+	menuDiv.appendChild(menuLeftWrapper);
+
+	const homeLi = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('li', 'active', 'HOME');
+	homeLi.dataset.tab = 'home';
+	menuLeftWrapper.appendChild(homeLi);
+
+	const menuLi = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('li', null, 'MENU');
+	menuLi.dataset.tab = 'menu';
+	menuLeftWrapper.appendChild(menuLi);
+
+	// Logo
+	const logoDiv = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div');
+	menuDiv.appendChild(logoDiv);
+
+	const logoImg = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('img', 'logo-asset');
+	logoImg.src = '/src/assets/KapihanCoLogoDark.svg';
+	logoImg.alt = 'Kapihan Co. logo';
+	logoDiv.appendChild(logoImg);
+
+	// Menu Right
+	const menuRightWrapper = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('ul', 'menu-right-wrapper');
+	menuDiv.appendChild(menuRightWrapper);
+
+	const aboutLi = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('li', null, 'ABOUT');
+	aboutLi.dataset.tab = 'about';
+	menuRightWrapper.appendChild(aboutLi);
+
+	const contactLi = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('li', null, 'CONTACT');
+	contactLi.dataset.tab = 'contact';
+	menuRightWrapper.appendChild(contactLi);
+
+	return header;
+}
+
+
 
 /***/ }),
 
@@ -66,7 +171,115 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   createMain: () => (/* binding */ createMain)\n/* harmony export */ });\n/* harmony import */ var _index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.js */ \"./src/scripts/index.js\");\n\n\nfunction createMain() {\n    const main = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('main', 'main-container');\n\n    // Hero Section\n    const heroSection = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('section', null, null);\n    heroSection.id = 'hero-section';\n    main.appendChild(heroSection);\n        const heroContainer = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'hero-container');\n        heroSection.appendChild(heroContainer);\n            const heroHeadline = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('h1', 'hero-headline', 'Beyond the ordinary cup');\n            heroContainer.appendChild(heroHeadline);\n            const heroLine = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('hr', 'hero-headline', 'Coffee with a story at Kapihan Co.');\n            heroContainer.appendChild(heroLine);\n\n    // About Section\n    const craftSection = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('section', null, null);\n    craftSection.id = 'craft-section';\n    main.appendChild(craftSection);\n        const craftContainer = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'craft-container');\n        craftSection.appendChild(craftContainer);\n            const div1 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'div1');\n            craftContainer.appendChild(div1);\n            const div2 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'div2');\n            craftContainer.appendChild(div2);\n                const craftheadline = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('h1', 'craft-headline', 'Here, every bean whispers a story, roasted to perfection and brewed with meticulous care');\n                div2.appendChild(craftheadline);\n                const craftline = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('hr', 'craft-headline', 'It\\'s an invitation to slow down, to savor the nuanced flavors, the aroma that dances on the air, the warmth that seeps into your soul');\n                div2.appendChild(craftline);\n            const div3 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'div3');\n            craftContainer.appendChild(div3);\n            const div4 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'div4');\n            craftContainer.appendChild(div4);\n            const div5 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'div5');\n            craftContainer.appendChild(div5);\n\n        // Location and Hours Section\n        const locationSection = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('section', null, null);\n        locationSection.id = 'location-hours-section';\n        main.appendChild(locationSection);\n            const locationContainer = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'location-hours-container');\n            locationSection.appendChild(locationContainer);\n                const location = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'location', null);\n                locationContainer.appendChild(location);\n                    const map = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('iframe', 'location-box', null);\n                        map.src = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3340.454571083354!2d-96.6851412241615!3d33.14969106484716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c16bfaa64ff31%3A0x1223ad96bcbcb4b!2s5121%20Collin%20McKinney%20Pkwy%2C%20McKinney%2C%20TX%2075070!5e0!3m2!1sen!2sus!4v1702950205264!5m2!1sen!2sus';\n                        map.allowFullscreen = '';\n                        map.loading = 'lazy';\n                        map.width = '600';\n                        map.height = '450';\n                        map.style = 'border:0;';\n                        map.allowfullscreen = '';\n                        map.borderradius = '10px';\n                        location.appendChild(map);\n                    const address = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('h3', 'location-content', '5121 Collin McKinney Pkwy, McKinney, TX 75070');\n                    location.appendChild(address);\n                const hours = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'hours', null);\n                locationContainer.appendChild(hours);\n                    const hoursHeadline = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('h2', 'hours-headline', 'Location Hours');\n                    hours.appendChild(hoursHeadline);\n                    const hoursContainer = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'hours-container');\n                    hours.appendChild(hoursContainer)\n                        const hoursDay = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'hours-day', null);\n                        hoursContainer.appendChild(hoursDay);\n                            const monday = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'location-hours-content', 'Monday');\n                            hoursDay.appendChild(monday);\n                            const tuesday = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'location-hours-content', 'Tuesday');\n                            hoursDay.appendChild(tuesday);\n                            const wednesday = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'location-hours-content', 'Wednesday');\n                            hoursDay.appendChild(wednesday);\n                            const thursday = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'location-hours-content', 'Thursday');\n                            hoursDay.appendChild(thursday);\n                            const friday = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'location-hours-content', 'Friday');\n                            hoursDay.appendChild(friday);\n                            const saturday = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'location-hours-content', 'Saturday');\n                            hoursDay.appendChild(saturday);\n                            const sunday = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'location-hours-content', 'Sunday');\n                            hoursDay.appendChild(sunday);\n                        const hoursTime = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'hours-time', null);\n                        hoursContainer.appendChild(hoursTime);\n                            const mondayTime = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'location-hours-content', '7:00 AM - 7:00 PM');\n                            hoursTime.appendChild(mondayTime);\n                            const tuesdayTime = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'location-hours-content', '7:00 AM - 7:00 PM');\n                            hoursTime.appendChild(tuesdayTime);\n                            const wednesdayTime = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'location-hours-content', '7:00 AM - 7:00 PM');\n                            hoursTime.appendChild(wednesdayTime);\n                            const thursdayTime = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'location-hours-content', '7:00 AM - 7:00 PM');\n                            hoursTime.appendChild(thursdayTime);\n                            const fridayTime = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'location-hours-content', '7:00 AM - 7:00 PM');\n                            hoursTime.appendChild(fridayTime);\n                            const saturdayTime = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'location-hours-content', '7:00 AM - 7:00 PM');\n                            hoursTime.appendChild(saturdayTime);\n                            const sundayTime = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'location-hours-content', '7:00 AM - 5:00 PM');\n                            hoursTime.appendChild(sundayTime);\n                  \n\n\n    \n    return main;\n}\n\n\n\n\n//# sourceURL=webpack://restaurantpage/./src/scripts/home.js?");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   createMain: () => (/* binding */ createMain)
+/* harmony export */ });
+/* harmony import */ var _index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.js */ "./src/scripts/index.js");
+
+
+function createMain() {
+    const main = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('main', 'main-container');
+
+    // Hero Section
+    const heroSection = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('section', null, null);
+    heroSection.id = 'hero-section';
+    main.appendChild(heroSection);
+        const heroContainer = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'hero-container');
+        heroSection.appendChild(heroContainer);
+            const heroHeadline = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('h1', 'hero-headline', 'Beyond the ordinary cup');
+            heroContainer.appendChild(heroHeadline);
+            const heroLine = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('hr', 'hero-headline', 'Coffee with a story at Kapihan Co.');
+            heroContainer.appendChild(heroLine);
+
+    // About Section
+    const craftSection = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('section', null, null);
+    craftSection.id = 'craft-section';
+    main.appendChild(craftSection);
+        const craftContainer = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'craft-container');
+        craftSection.appendChild(craftContainer);
+            const div1 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'div1');
+            craftContainer.appendChild(div1);
+            const div2 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'div2');
+            craftContainer.appendChild(div2);
+                const craftheadline = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('h1', 'craft-headline', 'Here, every bean whispers a story, roasted to perfection and brewed with meticulous care');
+                div2.appendChild(craftheadline);
+                const craftline = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('hr', 'craft-headline', 'It\'s an invitation to slow down, to savor the nuanced flavors, the aroma that dances on the air, the warmth that seeps into your soul');
+                div2.appendChild(craftline);
+            const div3 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'div3');
+            craftContainer.appendChild(div3);
+            const div4 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'div4');
+            craftContainer.appendChild(div4);
+            const div5 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'div5');
+            craftContainer.appendChild(div5);
+
+        // Location and Hours Section
+        const locationSection = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('section', null, null);
+        locationSection.id = 'location-hours-section';
+        main.appendChild(locationSection);
+            const locationContainer = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'location-hours-container');
+            locationSection.appendChild(locationContainer);
+                const location = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'location', null);
+                locationContainer.appendChild(location);
+                    const map = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('iframe', 'location-box', null);
+                        map.src = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3340.454571083354!2d-96.6851412241615!3d33.14969106484716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c16bfaa64ff31%3A0x1223ad96bcbcb4b!2s5121%20Collin%20McKinney%20Pkwy%2C%20McKinney%2C%20TX%2075070!5e0!3m2!1sen!2sus!4v1702950205264!5m2!1sen!2sus';
+                        map.allowFullscreen = '';
+                        map.loading = 'lazy';
+                        map.width = '600';
+                        map.height = '450';
+                        map.style = 'border:0;';
+                        map.allowfullscreen = '';
+                        map.borderradius = '10px';
+                        location.appendChild(map);
+                    const address = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('h3', 'location-content', '5121 Collin McKinney Pkwy, McKinney, TX 75070');
+                    location.appendChild(address);
+                const hours = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'hours', null);
+                locationContainer.appendChild(hours);
+                    const hoursHeadline = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('h2', 'hours-headline', 'Location Hours');
+                    hours.appendChild(hoursHeadline);
+                    const hoursContainer = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'hours-container');
+                    hours.appendChild(hoursContainer)
+                        const hoursDay = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'hours-day', null);
+                        hoursContainer.appendChild(hoursDay);
+                            const monday = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'location-hours-content', 'Monday');
+                            hoursDay.appendChild(monday);
+                            const tuesday = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'location-hours-content', 'Tuesday');
+                            hoursDay.appendChild(tuesday);
+                            const wednesday = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'location-hours-content', 'Wednesday');
+                            hoursDay.appendChild(wednesday);
+                            const thursday = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'location-hours-content', 'Thursday');
+                            hoursDay.appendChild(thursday);
+                            const friday = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'location-hours-content', 'Friday');
+                            hoursDay.appendChild(friday);
+                            const saturday = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'location-hours-content', 'Saturday');
+                            hoursDay.appendChild(saturday);
+                            const sunday = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'location-hours-content', 'Sunday');
+                            hoursDay.appendChild(sunday);
+                        const hoursTime = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'hours-time', null);
+                        hoursContainer.appendChild(hoursTime);
+                            const mondayTime = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'location-hours-content', '7:00 AM - 7:00 PM');
+                            hoursTime.appendChild(mondayTime);
+                            const tuesdayTime = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'location-hours-content', '7:00 AM - 7:00 PM');
+                            hoursTime.appendChild(tuesdayTime);
+                            const wednesdayTime = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'location-hours-content', '7:00 AM - 7:00 PM');
+                            hoursTime.appendChild(wednesdayTime);
+                            const thursdayTime = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'location-hours-content', '7:00 AM - 7:00 PM');
+                            hoursTime.appendChild(thursdayTime);
+                            const fridayTime = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'location-hours-content', '7:00 AM - 7:00 PM');
+                            hoursTime.appendChild(fridayTime);
+                            const saturdayTime = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'location-hours-content', '7:00 AM - 7:00 PM');
+                            hoursTime.appendChild(saturdayTime);
+                            const sundayTime = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'location-hours-content', '7:00 AM - 5:00 PM');
+                            hoursTime.appendChild(sundayTime);
+                  
+
+
+    
+    return main;
+}
+
+
+
 
 /***/ }),
 
@@ -76,7 +289,82 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   contentMain: () => (/* binding */ contentMain),\n/* harmony export */   createElement: () => (/* binding */ createElement)\n/* harmony export */ });\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../style.scss */ \"./src/style.scss\");\n/* harmony import */ var _header_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header.js */ \"./src/scripts/header.js\");\n/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home.js */ \"./src/scripts/home.js\");\n/* harmony import */ var _footer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer.js */ \"./src/scripts/footer.js\");\n/* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./menu.js */ \"./src/scripts/menu.js\");\n/* harmony import */ var _about_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./about.js */ \"./src/scripts/about.js\");\n/* harmony import */ var _contact_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./contact.js */ \"./src/scripts/contact.js\");\n\n\n\n\n\n\n\n\nconst contentMain = document.getElementById('content');\n\nfunction createElement(tag, className, textContent) {\n    const element = document.createElement(tag);\n    if (className) element.className = className;\n    if (textContent) element.textContent = textContent;\n    return element;\n}\n\nfunction appendToContent(element) {\n    const contentDiv = document.getElementById('content');\n    if (!contentDiv) {\n        console.error('No element with ID \"content\" found.');\n        return;\n    }\n    contentDiv.appendChild(element);\n}\n\ndocument.addEventListener('DOMContentLoaded', () => {\n    const content = document.getElementById('content');\n    const footer = (0,_footer_js__WEBPACK_IMPORTED_MODULE_3__.createFooter)();\n\n    content.appendChild((0,_header_js__WEBPACK_IMPORTED_MODULE_1__.createHeader)());\n    content.appendChild((0,_home_js__WEBPACK_IMPORTED_MODULE_2__.createMain)());\n    content.appendChild(footer);\n\n    document.querySelector('.header-container').addEventListener('click', (event) => {\n        if (event.target.dataset.tab) {\n            const tabName = event.target.dataset.tab;\n            console.log('Tab clicked:', tabName); \n            while (content.children.length > 2) {\n                content.removeChild(content.children[1]);\n            }\n            switch (tabName) {\n                case 'home':\n                    content.insertBefore((0,_home_js__WEBPACK_IMPORTED_MODULE_2__.createMain)(), footer);\n                    break;\n                case 'menu':\n                    content.insertBefore((0,_menu_js__WEBPACK_IMPORTED_MODULE_4__.createMenu)(), footer);\n                    break;\n                case 'about':\n                    content.insertBefore((0,_about_js__WEBPACK_IMPORTED_MODULE_5__.createAbout)(), footer);\n                    break;\n                case 'contact':\n                    content.insertBefore((0,_contact_js__WEBPACK_IMPORTED_MODULE_6__.createContact)(), footer);\n                    break;\n                default:\n                    console.error('Unknown tab:', tabName);\n            }\n        }\n    });\n});\n\n\n\n\n\n//# sourceURL=webpack://restaurantpage/./src/scripts/index.js?");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   contentMain: () => (/* binding */ contentMain),
+/* harmony export */   createElement: () => (/* binding */ createElement)
+/* harmony export */ });
+/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../style.scss */ "./src/style.scss");
+/* harmony import */ var _header_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header.js */ "./src/scripts/header.js");
+/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home.js */ "./src/scripts/home.js");
+/* harmony import */ var _footer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer.js */ "./src/scripts/footer.js");
+/* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./menu.js */ "./src/scripts/menu.js");
+/* harmony import */ var _about_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./about.js */ "./src/scripts/about.js");
+/* harmony import */ var _contact_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./contact.js */ "./src/scripts/contact.js");
+
+
+
+
+
+
+
+
+const contentMain = document.getElementById('content');
+
+function createElement(tag, className, textContent) {
+    const element = document.createElement(tag);
+    if (className) element.className = className;
+    if (textContent) element.textContent = textContent;
+    return element;
+}
+
+function appendToContent(element) {
+    const contentDiv = document.getElementById('content');
+    if (!contentDiv) {
+        console.error('No element with ID "content" found.');
+        return;
+    }
+    contentDiv.appendChild(element);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const content = document.getElementById('content');
+    const footer = (0,_footer_js__WEBPACK_IMPORTED_MODULE_3__.createFooter)();
+
+    content.appendChild((0,_header_js__WEBPACK_IMPORTED_MODULE_1__.createHeader)());
+    content.appendChild((0,_home_js__WEBPACK_IMPORTED_MODULE_2__.createMain)());
+    content.appendChild(footer);
+
+    document.querySelector('.header-container').addEventListener('click', (event) => {
+        if (event.target.dataset.tab) {
+            const tabName = event.target.dataset.tab;
+            console.log('Tab clicked:', tabName); 
+            while (content.children.length > 2) {
+                content.removeChild(content.children[1]);
+            }
+            switch (tabName) {
+                case 'home':
+                    content.insertBefore((0,_home_js__WEBPACK_IMPORTED_MODULE_2__.createMain)(), footer);
+                    break;
+                case 'menu':
+                    content.insertBefore((0,_menu_js__WEBPACK_IMPORTED_MODULE_4__.createMenu)(), footer);
+                    break;
+                case 'about':
+                    content.insertBefore((0,_about_js__WEBPACK_IMPORTED_MODULE_5__.createAbout)(), footer);
+                    break;
+                case 'contact':
+                    content.insertBefore((0,_contact_js__WEBPACK_IMPORTED_MODULE_6__.createContact)(), footer);
+                    break;
+                default:
+                    console.error('Unknown tab:', tabName);
+            }
+        }
+    });
+});
+
+
+
+
 
 /***/ }),
 
@@ -86,7 +374,73 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   createMenu: () => (/* binding */ createMenu)\n/* harmony export */ });\n/* harmony import */ var _index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.js */ \"./src/scripts/index.js\");\n\n\nfunction createMenu() {\n\tconst main = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('main', 'main-container', null);\n\n\tconst menuSection = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('section', null, null);\n\tmenuSection.id = 'menu-section';\n\tmain.appendChild(menuSection);\n\t\tconst menuContainer = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'menu-container');\n\t\tmenuSection.appendChild(menuContainer);\n\t\t\tconst menuHeadline = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'menu-headline', null);\n\t\t\tmenuContainer.appendChild(menuHeadline);\n\t\t\t\tconst menuHeadlineTitle = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('h1','menu-headline-title','Discover Our Selection');\n\t\t\t\tmenuHeadline.appendChild(menuHeadlineTitle);\n\t\t\t\tconst menuHeadlineLine = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('hr', 'menu-headline__line', null);\n\t\t\t\tmenuHeadline.appendChild(menuHeadlineLine);\n\t\t\t\tconst menuSubHeadline = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('h5', 'menu-subheadline', 'Indulge in our carefully curated craft coffee, menu, featuring a variety of flavors.');\n\t\t\t\tmenuHeadline.appendChild(menuSubHeadline);\n\t\t\tconst menuItemContainer = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'menu-item-container', null);\n\t\t\tmenuContainer.appendChild(menuItemContainer);\n\t\t\t\tconst menuCoffee = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'menu-coffee', null);\n\t\t\t\tmenuItemContainer.appendChild(menuCoffee);\n\t\t\t\t\tconst menuItemTitle = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('h1', 'menu-item-title', 'Coffee');\n\t\t\t\t\tmenuCoffee.appendChild(menuItemTitle);\n\t\t\t\t\tconst menuItemLine = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('hr', 'menu-item-line', null);\n\t\t\t\t\tmenuCoffee.appendChild(menuItemLine);\n\t\t\t\t\t\tconst menuItemsCofee = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'menu-items-coffee', null);\n\t\t\t\t\t\tmenuCoffee.appendChild(menuItemsCofee);\n\t\t\t\t\t\t\tconst menuItem1 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'menu-item', null);\n\t\t\t\t\t\t\tmenuItemsCofee.appendChild(menuItem1);\n\t\t\t\t\t\t\t\tconst menuItem1Title = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('h3', 'menu-item-title', 'Espresso');\n\t\t\t\t\t\t\t\tmenuItem1.appendChild(menuItem1Title);\n\t\t\t\t\t\t\t\tconst menuItem1Description = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'menu-item-description', 'A concentrated coffee beverage brewed by forcing a small amount of nearly boiling water under pressure through finely ground coffee beans.');\n\t\t\t\t\t\t\t\tmenuItem1.appendChild(menuItem1Description);\n\t\t\t\t\t\t\tconst menuItem2 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'menu-item', null);\n\t\t\t\t\t\t\tmenuItemsCofee.appendChild(menuItem2);\n\t\t\t\t\t\t\t\tconst menuItem2Title = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('h3', 'menu-item-title', 'Americano');\n\t\t\t\t\t\t\t\tmenuItem2.appendChild(menuItem2Title);\n\t\t\t\t\t\t\t\tconst menuItem2Description = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'menu-item-description', 'A type of coffee drink prepared by diluting an espresso with hot water, giving it a similar strength to, but different flavor from, traditionally brewed coffee.');\n\t\t\t\t\t\t\t\tmenuItem2.appendChild(menuItem2Description);\n\t\t\t\t\t\t\tconst menuItem3 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'menu-item', null);\n\t\t\t\t\t\t\tmenuItemsCofee.appendChild(menuItem3);\n\t\t\t\t\t\t\t\tconst menuItem3Title = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('h3', 'menu-item-title', 'Cafe Latte');\n\t\t\t\t\t\t\t\tmenuItem3.appendChild(menuItem3Title);\n\t\t\t\t\t\t\t\tconst menuItem3Description = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'menu-item-description', 'A coffee drink made with half espresso and half steamed milk.');\n\t\t\t\t\t\t\t\tmenuItem3.appendChild(menuItem3Description);\n\t\t\t\t\t\t\tconst menuItem4 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'menu-item', null);\n\t\t\t\t\t\t\tmenuItemsCofee.appendChild(menuItem4);\n\t\t\t\t\t\t\t\tconst menuItem4Title = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('h3', 'menu-item-title', 'Cappuccino');\n\t\t\t\t\t\t\t\tmenuItem4.appendChild(menuItem4Title);\n\t\t\t\t\t\t\t\tconst menuItem4Description = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'menu-item-description', 'A coffee drink made with espresso and steamed milk.');\n\t\t\t\t\t\t\t\tmenuItem4.appendChild(menuItem4Description);\n\t\t\t\t\t\t\tconst menuItem5 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'menu-item', null);\n\t\t\t\t\t\t\tmenuItemsCofee.appendChild(menuItem5);\n\t\t\t\t\t\t\t\tconst menuItem5Title = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('h3', 'menu-item-title', 'Cortado');\n\t\t\t\t\t\t\t\tmenuItem5.appendChild(menuItem5Title);\n\t\t\t\t\t\t\t\tconst menuItem5Description = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'menu-item-description', 'A Spanish coffee drink made with espresso and a small amount of steamed milk.');\n\t\t\t\t\t\t\t\tmenuItem5.appendChild(menuItem5Description);\n\treturn main;\n}\n\n\n\n//# sourceURL=webpack://restaurantpage/./src/scripts/menu.js?");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   createMenu: () => (/* binding */ createMenu)
+/* harmony export */ });
+/* harmony import */ var _index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.js */ "./src/scripts/index.js");
+
+
+function createMenu() {
+	const main = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('main', 'main-container', null);
+
+	const menuSection = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('section', null, null);
+	menuSection.id = 'menu-section';
+	main.appendChild(menuSection);
+		const menuContainer = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'menu-container');
+		menuSection.appendChild(menuContainer);
+			const menuHeadline = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'menu-headline', null);
+			menuContainer.appendChild(menuHeadline);
+				const menuHeadlineTitle = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('h1','menu-headline-title','Discover Our Selection');
+				menuHeadline.appendChild(menuHeadlineTitle);
+				const menuHeadlineLine = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('hr', 'menu-headline__line', null);
+				menuHeadline.appendChild(menuHeadlineLine);
+				const menuSubHeadline = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('h5', 'menu-subheadline', 'Indulge in our carefully curated craft coffee, menu, featuring a variety of flavors.');
+				menuHeadline.appendChild(menuSubHeadline);
+			const menuItemContainer = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'menu-item-container', null);
+			menuContainer.appendChild(menuItemContainer);
+				const menuCoffee = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'menu-coffee', null);
+				menuItemContainer.appendChild(menuCoffee);
+					const menuItemTitle = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('h1', 'menu-item-title', 'Coffee');
+					menuCoffee.appendChild(menuItemTitle);
+					const menuItemLine = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('hr', 'menu-item-line', null);
+					menuCoffee.appendChild(menuItemLine);
+						const menuItemsCofee = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'menu-items-coffee', null);
+						menuCoffee.appendChild(menuItemsCofee);
+							const menuItem1 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'menu-item', null);
+							menuItemsCofee.appendChild(menuItem1);
+								const menuItem1Title = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('h3', 'menu-item-title', 'Espresso');
+								menuItem1.appendChild(menuItem1Title);
+								const menuItem1Description = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'menu-item-description', 'A concentrated coffee beverage brewed by forcing a small amount of nearly boiling water under pressure through finely ground coffee beans.');
+								menuItem1.appendChild(menuItem1Description);
+							const menuItem2 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'menu-item', null);
+							menuItemsCofee.appendChild(menuItem2);
+								const menuItem2Title = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('h3', 'menu-item-title', 'Americano');
+								menuItem2.appendChild(menuItem2Title);
+								const menuItem2Description = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'menu-item-description', 'A type of coffee drink prepared by diluting an espresso with hot water, giving it a similar strength to, but different flavor from, traditionally brewed coffee.');
+								menuItem2.appendChild(menuItem2Description);
+							const menuItem3 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'menu-item', null);
+							menuItemsCofee.appendChild(menuItem3);
+								const menuItem3Title = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('h3', 'menu-item-title', 'Cafe Latte');
+								menuItem3.appendChild(menuItem3Title);
+								const menuItem3Description = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'menu-item-description', 'A coffee drink made with half espresso and half steamed milk.');
+								menuItem3.appendChild(menuItem3Description);
+							const menuItem4 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'menu-item', null);
+							menuItemsCofee.appendChild(menuItem4);
+								const menuItem4Title = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('h3', 'menu-item-title', 'Cappuccino');
+								menuItem4.appendChild(menuItem4Title);
+								const menuItem4Description = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'menu-item-description', 'A coffee drink made with espresso and steamed milk.');
+								menuItem4.appendChild(menuItem4Description);
+							const menuItem5 = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('div', 'menu-item', null);
+							menuItemsCofee.appendChild(menuItem5);
+								const menuItem5Title = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('h3', 'menu-item-title', 'Cortado');
+								menuItem5.appendChild(menuItem5Title);
+								const menuItem5Description = (0,_index_js__WEBPACK_IMPORTED_MODULE_0__.createElement)('p', 'menu-item-description', 'A Spanish coffee drink made with espresso and a small amount of steamed milk.');
+								menuItem5.appendChild(menuItem5Description);
+	return main;
+}
+
+
 
 /***/ })
 
@@ -154,3 +508,4 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	
 /******/ })()
 ;
+//# sourceMappingURL=main.js.map
