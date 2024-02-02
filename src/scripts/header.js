@@ -23,7 +23,7 @@ function createHeader() {
 	menuDiv.appendChild(logoDiv);
 
 	const logoImg = createElement('img', 'logo-asset');
-	logoImg.src = '/src/assets/KapihanCoLogoDark.svg';
+	logoImg.src = 'KapihanCoLogoDark.svg';
 	logoImg.alt = 'Kapihan Co. logo';
 	logoDiv.appendChild(logoImg);
 
