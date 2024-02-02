@@ -15,46 +15,49 @@ function createElement(tag, className, textContent) {
     return element;
 }
 
-function appendToContent() {
+function appendToContent(element) {
     const contentDiv = document.getElementById('content');
     if (!contentDiv) {
         console.error('No element with ID "content" found.');
         return;
     }
+    contentDiv.appendChild(element);
 }
 
 document.addEventListener('DOMContentLoaded', () => {
     const content = document.getElementById('content');
-    const tabs = document.querySelectorAll('data-tab');
     const footer = createFooter();
-    console.log(tabs)
-    console.log('BLOP');
 
     content.appendChild(createHeader());
     content.appendChild(createMain());
     content.appendChild(footer);
-    
-    tabs.forEach(tab => {
-        tab.addEventListener('click', () => {
-            const tabName = tab.dataset.tab;
 
-            // Clear the content area, but keep the header and footer
+    document.querySelector('.header-container').addEventListener('click', (event) => {
+        if (event.target.dataset.tab) {
+            const tabName = event.target.dataset.tab;
+            console.log('Tab clicked:', tabName); 
             while (content.children.length > 2) {
                 content.removeChild(content.children[1]);
             }
-
-            // Add the new content
-            if (tabName === 'home') {
-                content.insertBefore(createMain(), footer);
-            } else if (tabName === 'menu') {
-                content.insertBefore(createMenu(), footer);
-            } else if (tabName === 'about') {
-                content.insertBefore(createAbout(), footer);
-            } else if (tabName === 'contact') {
-                content.insertBefore(createContact(), footer);
+            switch (tabName) {
+                case 'home':
+                    content.insertBefore(createMain(), footer);
+                    break;
+                case 'menu':
+                    content.insertBefore(createMenu(), footer);
+                    break;
+                case 'about':
+                    content.insertBefore(createAbout(), footer);
+                    break;
+                case 'contact':
+                    content.insertBefore(createContact(), footer);
+                    break;
+                default:
+                    console.error('Unknown tab:', tabName);
             }
-        });
+        }
     });
 });
 
-export { contentMain, createElement}
+
+export { contentMain, createElement }
